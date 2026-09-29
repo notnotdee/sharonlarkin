@@ -1,0 +1,50 @@
+/* Text */
+
+@property --heading-color-gold {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: rgb(169, 134, 0);
+}
+
+/* Navigation */
+
+@property --nav-current-page { 
+    syntax: "<color>";
+    inherits: false; 
+    initial-value: rgb(204, 153, 51);
+}
+
+/* Links */
+
+@property --link-color-default {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: rgb(51, 153, 153);
+}
+
+@property --link-color-visited {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: rgb(153, 102, 0);
+}
+
+@property --link-color-hover {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: rgb(153, 153, 255);
+}
+
+/* Background / foreground */
+
+@property --foreground-color-white {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: rgb(192,192,192);
+}
+
+@property --background-color-teal {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: rgb(51,102,102);
+}
+
